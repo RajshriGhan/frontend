@@ -1,0 +1,13 @@
+form{
+    background-color:white;
+    border-style: solid;
+}
+
+button{
+    background-color: beige;
+    width: -webkit-fill-available;
+}
+input{
+    border: 2px;
+    border-block-start-style: inherit;
+}

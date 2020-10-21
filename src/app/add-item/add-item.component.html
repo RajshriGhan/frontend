@@ -1,0 +1,11 @@
+<form [formGroup] = "formItem" (ngSubmit)="save()">
+  <input type="text" name="name" formControlName="name" placeholder="Enter name"><br><br>
+
+  <input type="text" name="description" formControlName="description" placeholder="Enter description"><br><br>
+
+  <input type="text" name="price" formControlName="price" placeholder="Enter amount"><br><br>
+
+
+  <button type="submit">Add Item</button>
+
+</form>
